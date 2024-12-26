@@ -35,8 +35,8 @@ public class Order
         
         total += DeliveryFee;
         total -= Discount != null ? Discount.Value() : 0;
-        
-        return total
+
+        return total;
     }
 
     public void Pay(decimal amount)
