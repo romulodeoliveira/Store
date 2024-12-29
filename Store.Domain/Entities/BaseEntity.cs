@@ -1,6 +1,8 @@
+using Flunt.Notifications;
+
 namespace Store.Domain.Entities;
 
-public class BaseEntity
+public class BaseEntity : Notifiable<Notification>
 {
     public BaseEntity()
     {
