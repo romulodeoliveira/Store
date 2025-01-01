@@ -6,7 +6,7 @@ namespace Store.Tests.Commands;
 public class CreateOrderCommandTests
 {
     [TestMethod]
-    [TestCategory("Handlers")]
+    [TestCategory("Commands")]
     public void GivenAnInvalidCommandTheRequestShouldNotBeGenerated()
     {
         var command = new CreateOrderCommand();
